@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f7614e17-24f0-4df7-a01a-b5c3f2954a51" name="Default Changelist" comment="" />
+    <list default="true" id="f7614e17-24f0-4df7-a01a-b5c3f2954a51" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-stall-zuul/src/main/java/com/cloud/stall/zull/ZuulApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-stall-zuul/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/spring_cloud_stall_zuul_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/spring_cloud_stall_zuul_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-stall-zuul/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-stall-zuul/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-stall-zuul/spring-cloud-stall-zuul.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-stall-zuul/spring-cloud-stall-zuul.iml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +22,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -30,11 +41,13 @@
     </option>
   </component>
   <component name="ProjectId" id="1fJP9VmebnXpikBRSnyzkLWW8GI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-cloud-stall-eureka/spring-cloud-stall-eureka-client/src/main/resources" />
@@ -46,8 +59,8 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
@@ -71,7 +84,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.stall-eureka-client1">
+  <component name="RunManager" selected="Spring Boot.stall-zuul-server">
     <configuration name="stall-eureka-client1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-cloud-stall-eureka-client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.stall.eureka.EurekaApplication" />
@@ -87,6 +100,14 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="clean package -Dmaven.skip.test=true -Pdev" />
+      </method>
+    </configuration>
+    <configuration name="stall-zuul-server" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-stall-zuul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.stall.zull.ZuulApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
@@ -154,6 +175,7 @@
     <list>
       <item itemvalue="Spring Boot.stall-eureka-server1" />
       <item itemvalue="Spring Boot.stall-eureka-client1" />
+      <item itemvalue="Spring Boot.stall-zuul-server" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -169,11 +191,22 @@
       <workItem from="1595933071941" duration="10461000" />
       <workItem from="1596438464157" duration="1819000" />
       <workItem from="1596440304150" duration="4572000" />
-      <workItem from="1596445001628" duration="22313000" />
+      <workItem from="1596445001628" duration="25600000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
