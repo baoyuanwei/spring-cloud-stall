@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <modules>
+        <module>spring-cloud-stall-eureka-server</module>
+        <module>spring-cloud-stall-eureka-client</module>
+    </modules>
+
+    <parent>
+        <groupId>com.stall.cloud</groupId>
+        <artifactId>spring-cloud-stall</artifactId>
+        <version>1.0</version>
+    </parent>
+
+    <groupId>com.stall.cloud</groupId>
+    <artifactId>spring-cloud-stall-eureka</artifactId>
+    <version>1.0</version>
+    <packaging>pom</packaging>
+
+    <profiles>
+        <profile>
+            <id>dev</id>
+            <properties>
+                <env>dev</env>
+            </properties>
+        </profile>
+<!--        <profile>-->
+<!--            <id>pre</id>-->
+<!--            <properties>-->
+<!--                <env>pre</env>-->
+<!--            </properties>-->
+<!--        </profile>-->
+<!--        <profile>-->
+<!--            <id>prd</id>-->
+<!--            <properties>-->
+<!--                <env>prd</env>-->
+<!--            </properties>-->
+<!--        </profile>-->
+    </profiles>
+
+    <dependencies>
+
+        <!-- eureka-server -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+        </dependency>
+        <!-- eureka-client -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+
+    </dependencies>
+
+</project>

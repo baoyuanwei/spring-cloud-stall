@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="spring-cloud-stall-consul:war">
+    <output-path>$PROJECT_DIR$/spring-cloud-stall-consul/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>spring-cloud-stall-consul</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="spring-cloud-stall-consul-1.0.war">
+      <element id="artifact" artifact-name="spring-cloud-stall-consul:war exploded" />
+    </root>
+  </artifact>
+</component>

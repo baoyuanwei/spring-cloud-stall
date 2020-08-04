@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="spring-cloud-stall-zuul:war">
+    <output-path>$PROJECT_DIR$/spring-cloud-stall-zuul/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>spring-cloud-stall-zuul</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="spring.cloud.stall.zuul-1.0.war">
+      <element id="artifact" artifact-name="spring-cloud-stall-zuul:war exploded" />
+    </root>
+  </artifact>
+</component>

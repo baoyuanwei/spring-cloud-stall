@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-stall.iml" filepath="$PROJECT_DIR$/spring-cloud-stall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-stall-consul/spring-cloud-stall-consul.iml" filepath="$PROJECT_DIR$/spring-cloud-stall-consul/spring-cloud-stall-consul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-stall-eureka/spring-cloud-stall-eureka.iml" filepath="$PROJECT_DIR$/spring-cloud-stall-eureka/spring-cloud-stall-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-stall-eureka/spring-cloud-stall-eureka-client/spring-cloud-stall-eureka-client.iml" filepath="$PROJECT_DIR$/spring-cloud-stall-eureka/spring-cloud-stall-eureka-client/spring-cloud-stall-eureka-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-stall-eureka/spring-cloud-stall-eureka-server/spring-cloud-stall-eureka-server.iml" filepath="$PROJECT_DIR$/spring-cloud-stall-eureka/spring-cloud-stall-eureka-server/spring-cloud-stall-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-stall-getway/spring-cloud-stall-getway.iml" filepath="$PROJECT_DIR$/spring-cloud-stall-getway/spring-cloud-stall-getway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-stall-hystrix/spring-cloud-stall-hystrix.iml" filepath="$PROJECT_DIR$/spring-cloud-stall-hystrix/spring-cloud-stall-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-stall-zuul/spring-cloud-stall-zuul.iml" filepath="$PROJECT_DIR$/spring-cloud-stall-zuul/spring-cloud-stall-zuul.iml" />
+    </modules>
+  </component>
+</project>

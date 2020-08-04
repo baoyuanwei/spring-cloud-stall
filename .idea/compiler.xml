@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-cloud-stall-hystrix" />
+        <module name="spring-cloud-stall-zuul" />
+        <module name="spring-cloud-stall-eureka-client" />
+        <module name="spring-cloud-stall-eureka-server" />
+        <module name="spring-cloud-stall-getway" />
+        <module name="spring-cloud-stall-consul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="comcloudstallhystrix" target="1.7" />
+      <module name="spring-cloud-stall" target="1.8" />
+      <module name="spring-cloud-stall-consul" target="1.7" />
+      <module name="spring-cloud-stall-eureka" target="1.8" />
+      <module name="spring-cloud-stall-eureka-client" target="1.8" />
+      <module name="spring-cloud-stall-eureka-server" target="1.8" />
+      <module name="spring-cloud-stall-getway" target="1.8" />
+      <module name="spring-cloud-stall-hystrix" target="1.8" />
+      <module name="spring-cloud-stall-zuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="comcloudstallhystrix" options="" />
+      <module name="spring-cloud-stall-consul" options="-parameters" />
+      <module name="spring-cloud-stall-eureka" options="-parameters" />
+      <module name="spring-cloud-stall-eureka-client" options="-parameters" />
+      <module name="spring-cloud-stall-eureka-server" options="-parameters" />
+      <module name="spring-cloud-stall-getway" options="-parameters" />
+      <module name="spring-cloud-stall-hystrix" options="-parameters" />
+      <module name="spring-cloud-stall-zuul" options="-parameters" />
+    </option>
+  </component>
+</project>
