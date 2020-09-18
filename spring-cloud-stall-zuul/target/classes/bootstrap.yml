@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: spring-cloud-stall-zuul
+
+server:
+  port: 7001
+#路由配置
+#zuul:
+#  routes:
+#  ignored-services:
+#  ignored-patterns:
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-server1:6001/eureka/
+  instance:
+    instance-id: stall-zuul-server
